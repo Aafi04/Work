@@ -3,8 +3,8 @@ import time
 
 db = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="1234",
+    user="admin",
+    password="root",
     database="contact"
 )
 
