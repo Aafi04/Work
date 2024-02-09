@@ -1,7 +1,7 @@
 import mysql.connector as p
 import os
-mydb = p.connect(host="localhost", user="root",
-                 passwd="admin", database="insurances")
+mydb = p.connect(host="localhost", user="admin",
+                 passwd="root", database="insurances")
 mycursor = mydb.cursor()
 print('\n'*3, '\t'*2, "******************************************************************", '\n'*2, '\t'*5,
       "WELCOME TO RELIANCE INSURANCE", '\n'*2, '\t'*2, "******************************************************************")
